@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <script src="https://kit.fontawesome.com/926dc3d8e1.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizz JS</title>
@@ -10,33 +12,33 @@
 <body>
 <article>
     <h1>Quizz Culture générale !</h1>
-        <div>
+        <div class="q">
             <h3>Question 1</h3>
             <ul>
-                <li><input type="radio" name="response1" class="goodRep">Reponse 1</li>
-                <li><input type="radio" name="response1">Reponse 2</li>
-                <li><input type="radio" name="response1">Reponse 3</li>
+                <li><input type="radio" name="response1" class="goodRep" id="1"><label for="1">Reponse 1<i class="fas fa-chevron-left"></i></label></li>
+                <li><input type="radio" name="response1" id="2"><label for="2">Reponse 2<i class="fas fa-chevron-left"></i></label></li>
+                <li><input type="radio" name="response1" id="3"><label for="3">Reponse 3<i class="fas fa-chevron-left"></i></label></li>
             </ul>
         </div>
-        <div>
+        <div class="q">
             <h3>Question 2</h3>
             <ul>
-                <li><input type="radio" name="response2" class="goodRep">Reponse 1</li>
-                <li><input type="radio" name="response2">Reponse 2</li>
-                <li><input type="radio" name="response2">Reponse 3</li>
+                <li><input type="radio" name="response2" class="goodRep" id="4"><label for="4">Reponse 1<i class="fas fa-chevron-left"></i></label></li>
+                <li><input type="radio" name="response2" id="5"><label for="5">Reponse 2<i class="fas fa-chevron-left"></i></label></li>
+                <li><input type="radio" name="response2" id="6"><label for="6">Reponse 3<i class="fas fa-chevron-left"></i></label></li>
             </ul>
         </div>
-        <div>
+        <div class="q">
             <h3>Question 3</h3>
             <ul>
-                <li><input type="radio" name="response3" class="goodRep">Reponse 1</li>
-                <li><input type="radio" name="response3">Reponse 2</li>
-                <li><input type="radio" name="response3">Reponse 3</li>
+                <li><input type="radio" name="response3" class="goodRep" id="7"><label for="7">Reponse 1<i class="fas fa-chevron-left"></i></label></li>
+                <li><input type="radio" name="response3" id="8"><label for="8">Reponse 2<i class="fas fa-chevron-left"></i></label></li>
+                <li><input type="radio" name="response3" id="9"><label for="9">Reponse 3<i class="fas fa-chevron-left"></i></label></li>
             </ul>
         </div>
 
         <button id="btn">Validez vos choix !</button>
-    <div><h3>Cliquez sur valider pour voir les résultats</h3></div>
+    <div><h3 id="result">Cliquez sur valider pour voir les résultats</h3></div>
 </article>
 
 

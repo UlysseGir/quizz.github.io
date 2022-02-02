@@ -47,6 +47,27 @@ input[type=radio]{
     margin-right: 5px;
 }
 
+.fas {
+    display: none;
+}
+
+label:hover i {
+    display: inline-block;
+    padding-left: 4rem;
+	animation: slide-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+}
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+    }
+  }
+
 button {
     margin: auto;
     padding: 20px 30px;
